@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9fafb;
+}
+
+.cal {
+  width: 400px;
+  max-width: 400px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+}
+
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 100%;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  max-width: 15%;
+  font-size: 20px;
+  background: #37455b;
+  cursor: pointer;
+  border: 1px solid #d4d8e0;
+  border-radius:4px;
+}
+
+.cal-days-of-week,
+.cal-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.cal-days-of-week div {
+  text-align: center;
+  font-weight: bold;
+  color: #494a4c;
+}
+
+.cal-days div {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e7e8eb;
+}
+
+.cal-days div.today {
+  background-color: #2563eb;
+  color: white;
+}
+
+.nav-button:hover,
+.cal-days div:hover {
+  background-color: #98a2af;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #334155;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.results div {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  font-size: 16px;
+}
