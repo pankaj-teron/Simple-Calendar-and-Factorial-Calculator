@@ -23,11 +23,11 @@ A simple web app that combines a dynamic calendar and a factorial calculator. Us
 ## Installation
 1.	Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/Simple-Calendar-and-Factorial-Calculator.git
+`git clone https://github.com/yourusername/Simple-Calendar-and-Factorial-Calculator.git`
 
 2.	Navigate to the project directory:
 
-cd Simple-Calendar-and-Factorial-Calculator
+`cd Simple-Calendar-and-Factorial-Calculator`
 
 3.	Open the index.html file in your preferred web browser to view and use the app.
 
